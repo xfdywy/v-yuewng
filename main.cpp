@@ -10,7 +10,7 @@ int main(){
     int n=0;
     clock_t startTime,endTime;
     startTime = clock();
-    for (long int i = 0; i < 100000000000; i++)
+    for (long int i = 0; i < 10000; i++)
         n += i;
     endTime = clock();
     cout << n << " ~~~~ " << (double)(endTime-startTime) / CLOCKS_PER_SEC << endl;
