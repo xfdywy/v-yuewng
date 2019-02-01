@@ -7,7 +7,6 @@
 using namespace std;
 int main(){
     cout << "hello world!" <<endl;
-    t1 = getTime();
     int n=0;
     clock_t startTime,endTime;
     startTime = clock();
