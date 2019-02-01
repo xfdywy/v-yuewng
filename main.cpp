@@ -10,8 +10,8 @@ int main(){
     int n=0;
     clock_t startTime,endTime;
     startTime = clock();
-    for (int i = 0; i < 1000000000; i++)
+    for (long int i = 0; i < 100000000000; i++)
         n += i;
     endTime = clock();
-    cout << n << " ~~~~ " << endTime-startTime << endl;
+    cout << n << " ~~~~ " << (double)(endTime-startTime) / CLOCKS_PER_SEC << endl;
 }
