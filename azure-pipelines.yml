@@ -13,8 +13,8 @@ steps:
 - script: g++ main.cpp
   displayName: 'Run a one-line script'
 
-- script : docker build .
-  displayName: 'docker'
+# - script : docker build .
+#   displayName: 'docker'
 
 - script: ./a.out
   displayName: 'Run a exe'
